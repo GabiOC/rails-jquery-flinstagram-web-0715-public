@@ -1,0 +1,1 @@
+$(".like").html('<div class="like-btn text-center" picture_id="<%= @picture.id %>"><span class="<%= @picture.heart_class(@current_user) %>"></span></div><div class="likes-message"><%= @picture.likes_message(@current_user) %></div>');
